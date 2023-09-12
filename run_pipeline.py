@@ -1,9 +1,7 @@
 from pathlib import Path
 from typing import Optional
-
 import typer
 from wasabi import msg
-
 from spacy_llm.util import assemble
 
 Arg = typer.Argument
